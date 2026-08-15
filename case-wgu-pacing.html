@@ -4,104 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WGU Student Pacing & Nudge Alert System — Case Study</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="case-detail-container">
-    
-    <a href="index.html" class="back-link">← Back to work</a>
+  <nav class="nav">
+    <a href="index.html" class="nav-mark">TG.</a>
+    <div class="nav-links">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="ZTamieraGuidry.docx" target="_blank" rel="noopener">Resume</a>
+      <a href="mailto:tamieraw96@icloud.com">Contact</a>
+    </div>
+  </nav>
 
-    <header class="case-header">
-      <p class="case-tag">01 · UX RESEARCH · UI DESIGN · MICRO-INTERACTIONS</p>
-      <h1 class="case-title">WGU Student Pacing & Nudge Alert System</h1>
-      <p class="case-subtitle">Designing micro-interactions and proactive nudge alerts for the WGU student portal to support course pacing and reduce student friction.</p>
+  <div class="about-page">
+    <a href="index.html" style="font-family: var(--mono); font-size: 0.85rem; color: var(--ink-muted); text-decoration: none;">← Back to work</a>
+
+    <header style="margin-top: 1.5rem; margin-bottom: 2.5rem;">
+      <p style="font-family: var(--mono); font-size: 0.8rem; text-transform: uppercase; color: var(--ink-muted); letter-spacing: 0.05em; margin-bottom: 0.5rem;">01 · UX RESEARCH · UI DESIGN · MICRO-INTERACTIONS</p>
+      <h1 style="margin-bottom: 0.75rem;">WGU Student Pacing & Nudge Alert System</h1>
+      <p style="font-size: 1.1rem; color: var(--ink-muted); line-height: 1.5;">Designing micro-interactions and proactive nudge alerts for the WGU student portal to support course pacing and reduce student friction.</p>
     </header>
 
-    <div class="case-meta">
-      <div class="meta-item">
-        <span class="meta-label">ROLE</span>
-        <p class="meta-value">UX Researcher & UI Designer</p>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">TIMELINE</span>
-        <p class="meta-value">WGU Internship Project</p>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">METHODS</span>
-        <p class="meta-value">Maze usability testing (21 participants), micro-interaction design, user journey mapping, prototype testing</p>
-      </div>
-      <div class="meta-item">
-        <span class="meta-label">OUTPUT</span>
-        <p class="meta-value">Validated portal alert system, Maze usability study report, interactive Figma prototype</p>
-      </div>
-    </div>
+    <h2>Role & Scope</h2>
+    <ul>
+      <li><strong>Role</strong> — UX Researcher & UI Designer</li>
+      <li><strong>Timeline</strong> — WGU Internship Project</li>
+      <li><strong>Methods</strong> — Maze usability testing (21 participants), micro-interaction design, user journey mapping, prototype testing</li>
+      <li><strong>Output</strong> — Validated portal alert system, Maze usability study report, interactive Figma prototype</li>
+    </ul>
 
-    <div class="case-section">
-      <span class="section-label">CONTEXT</span>
-      <p class="case-text">
-        In self-paced online learning environments, students often lose momentum without clear, structured milestones. This project focused on creating timely, non-intrusive micro-interactions and nudge alerts inside the WGU student dashboard to keep learners informed of their pacing status without introducing cognitive overload.
-      </p>
-    </div>
+    <h2>Context</h2>
+    <p>In self-paced online learning environments, students often lose momentum without clear, structured milestones. This project focused on creating timely, non-intrusive micro-interactions and nudge alerts inside the WGU student dashboard to keep learners informed of their pacing status without introducing cognitive overload.</p>
 
-    <div class="case-section">
-      <span class="section-label">RESEARCH QUESTION</span>
-      <p class="case-quote">
-        What are the recurring friction points students hit when tracking self-paced progress, and how can proactive nudge interactions maintain study momentum?
-      </p>
-    </div>
+    <h2>Research Question</h2>
+    <p style="font-style: italic; border-left: 2px solid var(--accent, #333); padding-left: 1rem; color: var(--ink-muted);">
+      What are the recurring friction points students hit when tracking self-paced progress, and how can proactive nudge interactions maintain study momentum?
+    </p>
 
-    <div class="case-section">
-      <span class="section-label">PROCESS</span>
+    <h2>Process</h2>
+    <h3>Pattern identification</h3>
+    <p>Designed subtle visual feedback cues, completion screens, and dashboard progress bars to signal milestone accomplishments.</p>
 
-      <h3 class="subsection-title">Pattern identification</h3>
-      <p class="case-text">
-        Designed subtle visual feedback cues, completion screens, and dashboard progress bars to signal milestone accomplishments.
-      </p>
-
-      <h3 class="subsection-title">Usability testing (Maze)</h3>
-      <p class="case-text">
-        Executed an unmoderated remote usability study via Maze with 21 participants using a blend of Opinion Scale blocks and open-ended qualitative prompts:
-      </p>
-      <ul class="case-list">
-        <li>— <strong>Alert clarity</strong> — Evaluated how quickly participants recognized their current pacing status from the dashboard view.</li>
-        <li>— <strong>Motivation & sentiment</strong> — Measured whether completion notifications felt rewarding versus intrusive.</li>
-        <li>— <strong>Navigation speed</strong> — Tracked clickpaths to ensure nudge calls-to-action directed users seamlessly back to active coursework.</li>
-      </ul>
-    </div>
+    <h3>Usability testing (Maze)</h3>
+    <p>Executed an unmoderated remote usability study via Maze with 21 participants using a blend of Opinion Scale blocks and open-ended qualitative prompts:</p>
+    <ul>
+      <li><strong>Alert clarity</strong> — Evaluated how quickly participants recognized their current pacing status from the dashboard view.</li>
+      <li><strong>Motivation & sentiment</strong> — Measured whether completion notifications felt rewarding versus intrusive.</li>
+      <li><strong>Navigation speed</strong> — Tracked clickpaths to ensure nudge calls-to-action directed users seamlessly back to active coursework.</li>
+    </ul>
 
     <!-- IMAGES SECTION -->
-    <div class="case-gallery" style="display: flex; gap: 20px; margin: 40px 0;">
-      <img src="wgu-completion-screen.jpg" alt="WGU Completion Screen Micro-interaction" style="width: 48%; border-radius: 6px; border: 1px solid #e0e0e0;" />
-      <img src="wgu-dashboard.jpg" alt="WGU Student Progress Dashboard" style="width: 48%; border-radius: 6px; border: 1px solid #e0e0e0;" />
+    <div style="display: flex; gap: 20px; margin: 2rem 0; flex-wrap: wrap;">
+      <img src="wgu-completion-screen.jpg" alt="WGU Completion Screen Micro-interaction" style="width: 48%; min-width: 280px; border-radius: 6px; border: 1px solid #e0e0e0;" />
+      <img src="wgu-dashboard.jpg" alt="WGU Student Progress Dashboard" style="width: 48%; min-width: 280px; border-radius: 6px; border: 1px solid #e0e0e0;" />
     </div>
 
-    <div class="case-section">
-      <span class="section-label">OUTCOMES</span>
-      <ul class="case-list">
-        <li>— High task completion rate across all 21 Maze participants evaluating the nudge alert workflow.</li>
-        <li>— Positive qualitative feedback on notification tone, balancing encouragement without feeling punitive.</li>
-        <li>— Validated prototype ready for design system integration.</li>
-      </ul>
-    </div>
+    <h2>Outcomes</h2>
+    <ul>
+      <li>High task completion rate across all 21 Maze participants evaluating the nudge alert workflow.</li>
+      <li>Positive qualitative feedback on notification tone, balancing encouragement without feeling punitive.</li>
+      <li>Validated prototype ready for design system integration.</li>
+    </ul>
 
-    <div class="case-section">
-      <span class="section-label">REFLECTION</span>
-      <p class="case-text">
-        Testing micro-interactions with real users reinforced that copy tone and visual hierarchy are just as important as mechanics when giving status updates. Small design decisions—like affirming progress before nudging the next action—significantly impacted student confidence during study sessions.
-      </p>
-    </div>
+    <h2>Reflection</h2>
+    <p>Testing micro-interactions with real users reinforced that copy tone and visual hierarchy are just as important as mechanics when giving status updates. Small design decisions—like affirming progress before nudging the next action—significantly impacted student confidence during study sessions.</p>
 
-    <footer class="case-footer" style="margin-top: 60px;">
-      <span class="section-label">NEXT CASE STUDY</span>
-      <h3 class="next-title">
-        <a href="case-hubspot-ai.html" class="next-link">
+    <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+      <p style="font-family: var(--mono); font-size: 0.8rem; text-transform: uppercase; color: var(--ink-muted);">NEXT CASE STUDY</p>
+      <h3 style="margin-top: 0.5rem;">
+        <a href="case-hubspot-ai.html" style="color: inherit; text-decoration: none;">
           HubSpot AI Foundations & Growth Strategy →
         </a>
       </h3>
     </footer>
-
   </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Tamiera Guidry. Hand-built in HTML &amp; CSS.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/tamiera-guidry-b728ba142/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
